@@ -9,7 +9,7 @@
 import Combine
 
 @available(OSX 10.15, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
-public extension Publisher where Output == Bool {
+public extension Publisher {
     /// Toggles boolean values emitted by a publisher.
     ///
     /// - returns: A toggled value.
