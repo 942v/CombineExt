@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -24,6 +24,7 @@
 /* Begin PBXBuildFile section */
 		1970A8AA25246FBD00799AB6 /* FilterMany.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1970A8A925246FBD00799AB6 /* FilterMany.swift */; };
 		1970A8B42524730500799AB6 /* FilterManyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1970A8B32524730400799AB6 /* FilterManyTests.swift */; };
+		27E90E8C2CDB83C80097CC39 /* DropValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E90E8B2CDB83C80097CC39 /* DropValue.swift */; };
 		63FEBC9327E9FCDB00E934AD /* FlatMapFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FEBC9227E9FCDB00E934AD /* FlatMapFirst.swift */; };
 		63FEBC9527E9FE9000E934AD /* FlatMapFirstTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FEBC9427E9FE9000E934AD /* FlatMapFirstTests.swift */; };
 		712E36C82711B79000A2AAFE /* RetryWhen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712E36C72711B79000A2AAFE /* RetryWhen.swift */; };
@@ -120,6 +121,7 @@
 /* Begin PBXFileReference section */
 		1970A8A925246FBD00799AB6 /* FilterMany.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterMany.swift; sourceTree = "<group>"; };
 		1970A8B32524730400799AB6 /* FilterManyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterManyTests.swift; sourceTree = "<group>"; };
+		27E90E8B2CDB83C80097CC39 /* DropValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropValue.swift; sourceTree = "<group>"; };
 		63FEBC9227E9FCDB00E934AD /* FlatMapFirst.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = FlatMapFirst.swift; sourceTree = "<group>"; tabWidth = 2; };
 		63FEBC9427E9FE9000E934AD /* FlatMapFirstTests.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = FlatMapFirstTests.swift; sourceTree = "<group>"; };
 		712E36C72711B79000A2AAFE /* RetryWhen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetryWhen.swift; sourceTree = "<group>"; };
@@ -270,6 +272,7 @@
 				OBJ_23 /* FlatMapLatest.swift */,
 				BF3D3B5C253B83F300D830ED /* IgnoreFailure.swift */,
 				BF43CC1425008B4F005AFA28 /* IgnoreOutputSetOutputType.swift */,
+				27E90E8B2CDB83C80097CC39 /* DropValue.swift */,
 				OBJ_24 /* MapMany.swift */,
 				EA0D86CC287D19CC0085356E /* MapToResult.swift */,
 				EA0D86CB287D19CC0085356E /* MapToValue.swift */,
@@ -651,6 +654,7 @@
 				BF45214E259C0C610065E60E /* PrefixWhileBehavior.swift in Sources */,
 				OBJ_98 /* Toggle.swift in Sources */,
 				OBJ_99 /* WithLatestFrom.swift in Sources */,
+				27E90E8C2CDB83C80097CC39 /* DropValue.swift in Sources */,
 				OBJ_100 /* ZipMany.swift in Sources */,
 				BF330EF924F20032001281FC /* Timer.swift in Sources */,
 				OBJ_101 /* CurrentValueRelay.swift in Sources */,
